@@ -4,11 +4,11 @@ body {
 }
 h1{
     color: darkslateblue;
-    font-size: .5em
+    font-size: 2em
 }
 h2 {
-    color: darkslateblue;
-    font-size: 18em
+    color: dimgray;
+    font-size: .5em
 
 }
 .special {color: purple}
