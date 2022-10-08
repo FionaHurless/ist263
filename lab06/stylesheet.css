@@ -1,8 +1,15 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
-h1, h2{
+h1{
     color: darkslateblue;
+    font-size: 24em
+}
+h2 {
+    color: darkslateblue;
+    font-size: 18em
+
 }
 .special {color: purple}
 .evenrow {background-color: darkslateblue;}
