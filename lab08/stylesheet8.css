@@ -27,7 +27,8 @@ nav a:hover {background-color: aliceblue;
     display: flex; 
     background-color: aliceblue; 
     border-radius: 1em; 
-    padding: 5em;}
+    padding: 5em;
+    margin: 30px;}
 
 .address{
     flex: 1; 
@@ -35,27 +36,30 @@ nav a:hover {background-color: aliceblue;
 
 .links{
     flex: 2; 
+    padding-left: 2em;
     }
 
 .header2{
-    flex: 1; 
+    display: flex;
     background-color: aliceblue; 
     border-radius: 1em; 
     padding: 10em;
     padding: 80px;
-    margin-top: 40px;
+    margin: 30px;
     display: flex;
     flex-wrap: wrap} 
 
 .map{
     background-color: aliceblue;
-    float: right; 
-    margin: 5px;}
+    flex: 2;
+    padding: 5em;
+    
 
 .form {
     background-color: aliceblue;
-    float: left; 
-    margin: 5px;}
+    flex: 1; 
+    margin: 5px;
+    padding: 30px;
 
 img {
     width: 10px;
