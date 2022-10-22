@@ -24,18 +24,18 @@ nav a:hover {background-color: aliceblue;
 }
 
 .header1{
-    flex: 2; order: 3; 
+    display: flex; 
     background-color: aliceblue; 
     border-radius: 1em; 
-    padding: 5em;}  
+    padding: 5em;}
 
 .address{
-    float: left; 
-    margin: 20px;}
+    flex: 1; 
+    }
 
-.link{
-    float: right; 
-    margin: 20px;}
+.links{
+    flex: 2; 
+    }
 
 .header2{
     flex: 1; 
@@ -58,5 +58,6 @@ nav a:hover {background-color: aliceblue;
     margin: 5px;}
 
 img {
-    width: 50px;
+    width: 10px;
 }
+
