@@ -1,0 +1,62 @@
+body {
+    background-color: #850E35;
+    color: #DD5353;
+}
+
+a {
+    color: #002B5B;
+}
+
+h1 {
+    color: #b28282;
+}
+
+nav {
+    background-color: #850E35;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {color: #D8D9CF;
+}
+
+nav a:hover {background-color: aliceblue;
+}
+
+.header1{
+    flex: 2; order: 3; 
+    background-color: aliceblue; 
+    border-radius: 1em; 
+    padding: 5em;}  
+
+.address{
+    float: left; 
+    margin: 20px;}
+
+.link{
+    float: right; 
+    margin: 20px;}
+
+.header2{
+    flex: 1; 
+    background-color: aliceblue; 
+    border-radius: 1em; 
+    padding: 10em;
+    padding: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap} 
+
+.map{
+    background-color: aliceblue;
+    float: right; 
+    margin: 5px;}
+
+.form {
+    background-color: aliceblue;
+    float: left; 
+    margin: 5px;}
+
+img {
+    width: 50px;
+}
