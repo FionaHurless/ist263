@@ -46,13 +46,14 @@ nav a:hover {background-color: aliceblue;
     padding: 10em;
     padding: 80px;
     margin: 30px;
-    display: flex;
-    flex-wrap: wrap} 
+}
+
 
 .map{
     background-color: aliceblue;
     flex: 2;
-    padding: 5em;
+    padding: 10px;
+}
     
 
 .form {
@@ -60,8 +61,9 @@ nav a:hover {background-color: aliceblue;
     flex: 1; 
     margin: 5px;
     padding: 30px;
+}
 
-img {
-    width: 10px;
+img{
+    width: 70px;
 }
 
