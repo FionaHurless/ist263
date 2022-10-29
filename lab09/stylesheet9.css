@@ -1,0 +1,121 @@
+body {
+    background-color: aliceblue;
+    color: #da4a4a;
+}
+
+a {
+    color: #002B5B;
+}
+
+h1 {
+    color: #850E35;
+}
+
+nav {
+    background-color: #850E35;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+nav a {color: aliceblue;
+}
+
+nav a:hover {background-color: aliceblue;
+}
+
+.header1{
+    display: flex; 
+    background-color: #850E35; 
+    border-radius: 1em; 
+    padding: 5em;
+    margin: 30px;}
+
+.address{
+    flex: 1; 
+    }
+
+.links{
+    flex: 2; 
+    padding-left: 2em;
+    }
+
+.header2{
+    flex: 2;
+    background-color: #850E35; 
+    border-radius: 1em; 
+    padding: 10em;
+    padding: 80px;
+    margin: 30px;
+}
+
+.map{
+    background-color: aliceblue;
+    flex: 2;
+    padding: 10px;
+}
+    
+
+.form {
+    background-color: aliceblue;
+    flex: 1; 
+    margin: 5px;
+    padding: 30px;
+}
+
+img{
+    width: 70px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.special {
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: space-around;
+    flex: 3;
+    margin-top: 110px;
+    
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.class{
+    display: flex;
+}
+
+.flexbox1{
+    background-color: #850E35; 
+    border-radius: 1em; 
+    padding: 5em;
+    margin: 30px;
+}
+
+.text{
+    text-align: left;
+    color: #da4a4a;
+}
+
+.heading1{
+    text-align: center;
+    color: #da4a4a;
+}
+
+.sentence{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
