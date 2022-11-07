@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact</title>
+</head>
+<body> 
+    <nav>
+        <a href="about.html">Home |</a>
+        <a href="media.html"> Work |</a>
+        <a href="contact.html"> Contact</a>
+    </nav>    
+
+    <h1>Contact Info:</h1>
+    <div class="header1"> 
+        <div class="links">
+            <p>
+                <a href="mailto:fkhurles@syr.edu"> Email</a><br>
+                <a href="https://www.linkedin.com/in/fionahurless">Linkedin connect with me!</a><br>
+                <img src="../images/linkedinlogo.jpg" alt="LinkedIn Logo" height="50px" width="60px"><br>
+                <a href="https://www.instagram/com/fionahurless">Instagram</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="header2">
+            <h2>Contact Me:</h2> <br> 
+            <p>Leave a message below and I'll get back to you ASAP.</p>
+        <div class="form">
+            <form method="post" action="https://formspree.io/f/mgeqkowo">
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <label for="email">Prefer Email</label>
+            <input type="radio" id="email" name="emailcall" value="email">
+            <label for="call">Prefer Text</label>
+            <input type="radio" id="call" name="emailcall2" value="call" ><br>
+            <label for="region">Who are you?</label>
+            <select id="region" name="region">
+            <option value="student">Student</option>
+            <option value="employer">Employer</option>
+            <option value="other">Other</option>
+            </select><br>
+            <input type="submit" value="send my form">
+            </form>
+            </div>
+    </div>
+</body>
+</html>
