@@ -1,7 +1,7 @@
 body {
     background-color: aliceblue;
-    /* color: #da4a4a */
     color: #0b1c38;
+     /* color: #da4a4a */
 }
 
 a {
@@ -109,12 +109,12 @@ img{
 
 .text{
     text-align: left;
-    color: #da4a4a;
+    color: aliceblue;
 }
 
 .heading1{
     text-align: center;
-    color: #da4a4a;
+    color: aliceblue;
 }
 
 .sentence{
