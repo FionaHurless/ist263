@@ -7,6 +7,7 @@ nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3em;
     margin-top: 50px;
+    border-bottom: 1px solid white;
     border-width: 20px white;
 }
 
@@ -182,6 +183,8 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@media screen only and (max-width)
+  
 
 
     
