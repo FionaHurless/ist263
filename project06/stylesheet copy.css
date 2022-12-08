@@ -4,8 +4,7 @@ body{
 nav {
     text-align: center;
     justify-content:center;
-    font-family: 'M PLUS 1', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 2em;
     margin-top: 50px;
     border-bottom: #2a2b2a;
@@ -22,8 +21,7 @@ img{
 }
 
 h1{
-  font-family: 'M PLUS 1', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
     font-size: 7vw;
     font: weight 900px;
     color: white;
@@ -53,8 +51,7 @@ h1{
 
 p{
     color: white;
-    font-family: 'M PLUS 1', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
     font-size: 1.25em;
 }
 
@@ -92,8 +89,7 @@ font-family: 'Roboto', sans-serif;
 /* Style The Dropdown Button */
 .dropbtn {
     background-color:#2a2b2a;
-    font-family: 'M PLUS 1', sans-serif;
-font-family: 'Roboto', sans-serif;
+qfont-family: Roboto;
     color: white;
     padding: 16px;
     font-size: 1em;
@@ -120,8 +116,7 @@ font-family: 'Roboto', sans-serif;
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    font-family: 'M PLUS 1', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: .5em;
     padding: 12px 16px;
     text-decoration: none;
@@ -178,8 +173,7 @@ font-family: 'Roboto', sans-serif;
   }
 
   .form{
-    font-family: 'M PLUS 1', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     flex: 1; 
     margin: 5px;
     padding: 30px;
@@ -189,6 +183,5 @@ font-family: 'Roboto', sans-serif;
 
   .header2{
     font-size: 20px;
-    font-family: 'M PLUS 1', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
   }
