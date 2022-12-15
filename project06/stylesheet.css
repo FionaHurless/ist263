@@ -1,15 +1,19 @@
 body{
     background-color: #2a2b2a;
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vw;
+    margin-top: 40px;
+    margin-bottom: 2px;
     text-align: center;
     justify-content:center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3em;
-    margin-top: 50px;
-    border-bottom: 1px solid white;
-    border-width: 20px white;
+    color:white
+
 }
+
 
 nav a {color: white;
 }
@@ -22,7 +26,17 @@ img{
 }
 
 h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+    font: weight 900px;
+    color: white;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 90px;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
     font-size: 7vw;
     font: weight 900px;
     color: white;
@@ -52,8 +66,8 @@ h1{
 
 p{
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
 }
 
 .main{
@@ -74,24 +88,36 @@ p{
     padding-left: 2em;
     padding-right: 4em;
     margin-top: 20px;
-    line-height: 35px;
+    line-height: 3vw;
     margin-right: 20px;
-
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    justify-content:center;
 }
 
-.container{
-    display: flex;
-    justify-content: space-around;
+.container2{
+  max-width: fit-content;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: space-around;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .class{
     display: flex;
 }
 
+
+
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color:#2a2b2a;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a2b2a;
+    padding: top 40px;
+    font-family: 'Raleway', sans-serif;
     color: white;
     padding: 16px;
     font-size: 1em;
@@ -103,6 +129,7 @@ p{
   .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -118,8 +145,8 @@ p{
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: .5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: .60em;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -138,8 +165,12 @@ p{
     background-color: #8fbfde;
   }
 
+
+
+
+
 .form{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
     text-align: center;
     flex: 1; 
     margin: 5px;
@@ -147,19 +178,33 @@ p{
     letter-spacing: 2px;
     line-height: 2em;
     color: white;
+    font-size: 2vw;
   }
 
 p{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+
+.pcontact{
+  text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vw;
 }
 
 .contactheader1{
     text-align: center;
-    font-size: 100px;
-    margin-bottom: 0px;
+    font-size: 8vw;
 
+}
+
+.contactclass{
+  font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-size: 4vw;
+    text-align: center;
+    justify-content:center;
 }
 
   .selfie{
@@ -173,6 +218,7 @@ p{
   }
 
   .header2{
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin-bottom: 40px;
     padding: 20px;
@@ -180,11 +226,98 @@ p{
 
 .copy{
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-@media screen only and (max-width)
-  
+.portraitheader{
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 8vw;
+
+}
+
+.container3{
+  max-width: fit-content;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:100%
+}
+
+.flex-container {display: flex;
+  padding: 20px;
+}
+
+.portrait1, .portrait2, .portrait3, .portrait4, .portrait5, .portrait6 {
+  margin: 10px;
+}
+
+.portrait1 {
+  flex: 2; 
+  order: 2;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.portrait2 {
+  flex: 1; 
+  order: 1;
+  max-width: fit-content;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width:100%
+}
+
+.portrait3 {
+  flex: 1; 
+  order: 3;
+  max-width: fit-content;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width:100%
+}
+
+.portrait4 {
+  flex: 2; 
+  order: 2;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: fit-content
+}
+
+.portrait5 {
+  flex: 1; 
+  order: 1;
+  max-width: fit-content;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width:100%
+}
+
+.portrait6 {
+  flex: 1; 
+  order: 3;
+  max-width: fit-content;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width:100%
+}
 
 
-    
+
+@media screen and (min-width: 853px){
+  .title {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .title {
+    margin-top: 1px;
+    margin-bottom: 300px;
+  }
+}

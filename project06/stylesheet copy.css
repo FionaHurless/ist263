@@ -5,6 +5,7 @@ nav {
     text-align: center;
     justify-content:center;
     font-family: Roboto;
+    font-weight: lighter;
     font-size: 2em;
     margin-top: 50px;
     border-bottom: #2a2b2a;
@@ -27,7 +28,19 @@ h1{
     color: white;
     width: 100%;
     flex: 1;
-    margin-bottom: 90px;
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 418px){
+  h1 {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  h1 {
+    margin-top: 40px;
+  }
 }
 
 .george{
@@ -185,3 +198,48 @@ qfont-family: Roboto;
     font-size: 20px;
     font-family: Roboto;
   }
+
+
+  .flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  
+  .portrait1{
+    
+    justify-content: space-around;
+    width: 35%;
+  }
+  
+  .portrait2{
+    flex: 2;
+    justify-content: space-around;
+    width: 35%;
+  }
+  
+  .portrait3{
+    flex: 3;
+    justify-content: space-around;
+    width: 35%;
+  }
+
+  .portrait4{
+    
+    justify-content: space-around;
+    width: 35%;
+  }
+  
+  .portrait5{
+    flex: 2;
+    justify-content: space-around;
+    width: 35%;
+  }
+  
+  .portrait6{
+    flex: 3;
+    justify-content: space-around;
+    width: 35%;
+  }
+
+ 
